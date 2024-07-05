@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    transition: all .5s;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.navHeading{
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.btnResume{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.navbarbtn{  
+    font-family: "Exo 2", sans-serif;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sidebarbtn{
+    font-family: "Exo 2", sans-serif;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.profilepic{
+    margin-top: 60px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.profilepicDiv{
+    border-radius: 50%;
+    align-items: center;
+}
+
+.profileMainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-evenly;
+}
+
+.profileDescription{
+    font-family: "Exo 2", sans-serif;
+    font-size: 200%;
+    width: 700px;
+    font-weight: bolder;
+}
+
+.profileName{
+    font-family: "Exo 2", sans-serif;
+    font-size: 3.3vw;
+    font-weight: bolder;
+    font-style: italic;
+    width:80%;
+}
+
+
+
+
+
+.glowing-circle {
+    background-color: #fff;
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+    -moz-animation: glowing 1s ease-in-out infinite alternate;
+    animation: glowing 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glowing {
+    from {
+      box-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 1px rgb(255, 247, 0), 0 0 4px #0ff, 0 0 2px #e6b000, 0 0 3px #e6a900, 0 0 3px #e6a900;
+    }
+    to {
+      box-shadow: 0 0 0px #fff, 0 0 30px #fff94d, 0 0 2px #ffed4d, 0 0 5px #ff4da6, 0 0 3px #fff34d, 0 0 3px #ffe14d, 0 0 4px #ffca4d;
+    }
+  }
+
+
+
+  
+.glow-on-hover > a{
+    color: black;
+}
+
+  .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-family: "Exo 2";
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000000;
+    background: #e8e2e2;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #e4dcdc, #e8e6e3, #e8e6e3, #e8e6e3, #e8e6e3, #e8e6e3, #e8e6e3, #e8e6e3, #e8e6e3);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 40px;
+}
+
+.glow-on-hover:active {
+    color: #000000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    left: 0;
+    top: 0;
+    border-radius: 40px;
+}
+
+/* @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+} */
+
+
+
+
+
+.heading{
+    color: yellow;
+}
+
+
+
+
+
+/* About Section Design */
+
+.aboutMainContainer{
+    background-color: #0c0c0c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutContainer{
+    background-color: #0c0c0c;
+    height: 50vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink:inherit;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.aboutHeading{
+    font-size: 70px;
+    font-family: "Exo 2";
+    font-style:oblique;
+    font-weight: bolder;
+}
+
+.aboutDescription{
+    font-size:4vw;
+    font-family: "Exo 2";
+    font-style:oblique;
+    width: 100%;
+
+}
+
+.aboutSubContainer{
+    /* border:3px solid white; */
+}
+
+
+.heading{
+    font-family: 'Exo 2';
+    font-size: 50px;
+}
+
+
+
+/* CONTACTS DESIGN */
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+
+.contactIconContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height:40vh;
+}
+
+
+
+.contactIcon{
+    border: 1px solid rgb(255, 255, 255);
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.contactIcon:hover{
+    background-color: #817c5d;
+    cursor: pointer;
+}
+
+
+.contactSubIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    justify-content: space-evenly;
+    margin: 20px;
+    /* border:2px solid white; */
+}
+
+
+.contactLabel{
+    font-family: 'Exo 2';
+    font-size: 20px;
+}
+
+
+
+.contactDescription{
+    font-family: 'Exo 2';
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* PROJECTS SECTION */
+
+.projectsMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:max-content;
+    background-color:#0c0c0c;
+}
+
+.projectsHeading{
+    color: rgb(0, 217, 255);
+    font-size: 50px;
+    font-family: 'Exo 2';
+}
+
+
+
+
+
+/* PROJECT SECTION */
+
+.projectMainDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height:max-content;
+    align-items: center;
+    margin: 20px;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+}
+
+
+
+.projectHeading{
+    font-size: 40px;
+    font-family: 'Exo 2';
+    font-weight: bolder;
+}
+
+.projectDesc1{
+    font-family: "Exo 2";
+    font-size: 20px;
+    width: 100%;
+}
+.projectDesc2{
+    font-family: "Exo 2";
+    color: #6a6363;
+}
+.projectDesc3{
+    font-family: "Exo 2";
+    color: #6a6363;
+}
+
+.projectDescription{
+    width: 40vw;
+    font-family: 'Exo 2';
+}
+
+
+
+
+.button-36 {
+    background-image: linear-gradient(92.88deg, #ffffff 9.16%, #ffffff 43.89%, #ffffff 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: bolder;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 30px;
+    margin: 20px;
+    text-decoration: none;
+  }
+
+  .button-36 > a{
+    color: black;
+  }
+  
+  .button-36:hover {
+    box-shadow: rgba(30, 0, 255, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  }
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+  /* SLIDE SHOW ANIMATIONS */
+
+  
+  
+
+
+
+/* SLIDE */
+
+
+.slideImage{
+    height: 300px;
+    width: 95vw;
+}
+
+.slideShowContainer{
+    display: none;
+}
+
+
+.slideShowIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideShowMainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+    width: 400px;
+}
+
+.slideShowSubDiv{
+    height: 400px;
+}
+
+.slideShowImages{
+    width: 100%;
+    height: fit-content;
+}
+.slideShowIcon{
+    height: 60px;
+}
+
+.slideImage{
+    width:100%;
+    border-radius: 60px;
+}
+
+
+
+
+
+
+/* ACHIEVEMENTS SECTION */
+
+.achievementsHeading{
+    font-family: 'Exo 2';
+    font-size: 50px;
+    color: rgb(140, 255, 0);
+    margin:70px;
+}
+
+
+.achievementsMainDiv{
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.achievementMainDiv{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    border-radius: 30px;
+    background-color: rgb(8, 8, 8);
+    /* margin:40px; */
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+}
+
+
+.achievementsBlock{
+    width: 70%;
+    /* margin: 3px; */
+}
+
+.achievementMainDiv{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.achievementHeading{
+    font-size: 30px;
+    font-family: 'Exo 2';
+    font-weight: bolder;
+}
+
+.achievementDescription{
+    font-size: 20px;
+    font-family: 'Exo 2';
+    height: fit-content;
+    width: 30vw;
+    
+}
+
+/* .achievementImageDiv{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #6a6363;
+    border: 3px solid green;
+} */
+
+.achievementImage{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+
+.achievementImage:hover{
+    cursor: pointer;
+    /* position: absolute; */
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+    /* background-color: #fff; */
+    transition: all 0.5s;
+    box-shadow:
+      0 0 1px 3px #fff,
+      0 0 10px 6px rgb(193, 193, 193),
+      0 0 14px 9px #0ff;
+}
+
+
+.achievementSubDiv{ 
+    margin: 10px;
+}
+
+
+
+
+
+/* FOOTER DESIGN */
+
+
+.footer{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+}
+
+.footerMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+
+
+.footerListContainer{
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerSubSubContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-family: 'Exo 2';
+    font-size: 25px;
+}
+
+.footerSubSubContainer > a{
+    font-family: 'Exo 2';
+    text-decoration: none;
+    color: rgb(157, 152, 152);
+    margin:3px;
+}
+
+
+.footerInfoContainer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Exo 2';
+}
+
+.footerHeading{
+    font-size: 30px;
+    font-weight: bolder;
+}   
+
+.footerDescription{
+    width: 50vw;
+    color: rgb(157, 152, 152);
+}
+
+.footerIcons{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100px; */
+    flex-shrink: inherit;
+}
+
+
+.footerIconsSubContainer{
+    padding:15px;
+}
+
+.footerIconsSubContainer:hover{
+    cursor: pointer;
+    background-color: #1f1e1f;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.footerSubContainer{
+    font-family: 'Exo 2';
+}
+
+
+.footerDescription{
+    width: 100%;
+}
+
+
+
+
