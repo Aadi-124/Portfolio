@@ -29,7 +29,7 @@ export default function Contacts(){
                     <div className='contactIconContainer'>
                         <div className='contactSubIcon'  onClick={()=>{callPop()}} ><PhoneIcon   className='contactIcon' style={{fontSize:"100px", color:"yellow"}} /> <span className='contactLabel'>Phone</span> </div>
                         <div className='contactSubIcon'><a href="https://github.com/Aadi-124" target='_blank'><GitHubIcon   className='contactIcon' style={{fontSize:"100px", color:"yellow"}} /></a> <span className='contactLabel'>GitHub</span> </div>
-                        <div className='contactSubIcon' onClick={()=>{callPop()}}><MailIcon     className='contactIcon' style={{fontSize:"100px", color:"yellow"}} /> <span className='contactLabel'>Email</span> </div>
+                        <div className='contactSubIcon' onClick={()=>{emailPop()}}><MailIcon     className='contactIcon' style={{fontSize:"100px", color:"yellow"}} /> <span className='contactLabel'>Email</span> </div>
                         <div className='contactSubIcon'><a href="https://www.linkedin.com/in/aaditya1149/" target='_blank'><LinkedInIcon className='contactIcon' style={{fontSize:"100px", color:"yellow"}} /></a> <span className='contactLabel'>LinkedIn</span> </div>
                     </div>
                     <div className='contactDescription'>

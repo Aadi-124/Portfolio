@@ -19,7 +19,7 @@ export default function Profile() {
 
                         <p>Hey! I am Aaditya Thakare A Full Stack JAVA Developer!</p>
                         <div className='btnResume'>
-                            <button class="glow-on-hover" type="button"><a href="https://drive.google.com/file/d/1_mDldqPUiLEBEIE-685Wm7ngOzfCCG4Y/view?usp=drive_link" target='_blank'>RESUME</a></button>
+                        <a href="https://drive.google.com/file/d/1_mDldqPUiLEBEIE-685Wm7ngOzfCCG4Y/view?usp=drive_link" target='_blank'><button class="glow-on-hover" type="button">RESUME</button></a>
                         </div>
                     </div>
 
