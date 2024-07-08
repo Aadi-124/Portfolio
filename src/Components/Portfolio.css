@@ -628,11 +628,12 @@ h3{
     align-items: center;
     /* height: 100px; */
     flex-shrink: inherit;
+    /* border:2px solid red; */
 }
 
 
 .footerIconsSubContainer{
-    padding:15px;
+    /* padding:15px; */
 }
 
 .footerIconsSubContainer:hover{
