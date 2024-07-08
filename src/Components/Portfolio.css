@@ -463,8 +463,6 @@ a{
 
 
 
-
-
 /* ACHIEVEMENTS SECTION */
 
 .achievementsHeading{
@@ -481,6 +479,7 @@ a{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 
@@ -611,6 +610,10 @@ h3{
     font-family: 'Exo 2';
 }
 
+div{
+    /* border:2px solid red; */
+}
+
 .footerHeading{
     font-size: 30px;
     font-weight: bolder;
@@ -653,5 +656,6 @@ h3{
 }
 
 
-
-
+body {
+    overflow-x: hidden;
+  }
