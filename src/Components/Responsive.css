@@ -1,5 +1,10 @@
 
 @media only screen and (max-width: 700px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
     .btnResume{
         display: flex;
         justify-content:center;
@@ -38,6 +43,11 @@
 
 
 @media only screen and (max-width: 1030px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
     
     .projectDescription{
         width: 100%;
@@ -53,11 +63,16 @@
 
 @media only screen and (max-width: 440px) {
 
+    body {
+        overflow-x: hidden;
+    }
+    
+
     .projectImage{
         width: 100%;
     }
 
-    
+
 
     .achievementsHeading{
         font-size: 10vw;
@@ -81,6 +96,10 @@
 
 
 @media only screen and (max-width: 370px) {
+    body {
+        overflow-x: hidden;
+    }
+    
 
     .projectImage{
         width: 100%;
@@ -93,6 +112,10 @@
 
 
 @media only screen and (max-width: 500px) {
+    body {
+        overflow-x: hidden;
+    }
+    
 
     .achievementDescription{
         font-size: 3vw;
@@ -116,6 +139,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+    
 
     .achievementDescription{
         width: 100%;
@@ -126,13 +153,21 @@
 }
 
 @media only screen and (max-width: 1080px) {
-
+    body {
+        overflow-x: hidden;
+    }
+    
     .achievementDescription{
         width: 100%;
     }
 }
 
 @media (min-width:500px) and (max-width:800px){
+    body {
+        overflow-x: hidden;
+    }
+    
+
     .achievementImage{
         height: 30vw;
         width: 22vw;
@@ -146,6 +181,11 @@
 
 
 @media (min-width:400px) and (max-width:500px){
+    body {
+        overflow-x: hidden;
+    }
+    
+
     .achievementImage{
         height: 40vw;
         width: 30vw;

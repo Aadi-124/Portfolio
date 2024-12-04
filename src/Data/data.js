@@ -30,7 +30,7 @@ export const todoProject = {
     subheading:"Efficiently Manage your DaytoDay Task with todo management list stay consistant and get successful",
     description:"A to-do list application, often abbreviated as todo app, is a software program designed to help users manage their tasks and stay organized. It provides a way to create, track, and complete tasks, improving productivity and reducing the mental burden of remembering everything that needs to be done.",
     subdescription:"This Todo Management Application is a versatile tools that can benefit anyone looking to improve their organization, productivity, and overall task management.",
-    link:"https://todomanagementaadityathakare.000webhostapp.com",
+    link:"https://todomanagementapplication-frontend.onrender.com",
     images:todoImages
 }
 
@@ -39,7 +39,7 @@ export const portfolioProject = {
     subheading:"A static single page website for a professional that makes them standup from the crowed",
     description:"This React portfolio website is an user-friendly online platform built using the React JavaScript library specifically to showcase a developer's skills, experience, and projects. It serves as a digital resume and an effective tool to attract potential employers or clients.",
     subdescription:"Best portfolio websites provide a powerful and versatile platform for developers to showcase their skills and stand out in the competitive job market.",
-    link:"",
+    link:"https://aaditya-portfolio.onrender.com/",
     images:portfolioImages
 
 };

@@ -220,7 +220,7 @@ export default function NavigationBar() {
     
     </ThemeProvider>
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{"backgroundColor":"black"}}>
+      <AppBar position="fixed" style={{"backgroundColor":"black"}}>
         <Toolbar>
           <IconButton
             size="large"
