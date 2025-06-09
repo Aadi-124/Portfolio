@@ -4,6 +4,7 @@ import './Responsive.css';
 import Project from './Project';
 import { portfolioProject } from '../Data/data';
 import { todoProject } from '../Data/data';
+import { ChatAppProject } from '../Data/data';
 export default function Projects(){
 
 
@@ -16,6 +17,8 @@ export default function Projects(){
                 <Project data={portfolioProject}
                 />
                 <Project data={todoProject}
+                />
+                <Project data={ChatAppProject}
                 />
             </div>
 
