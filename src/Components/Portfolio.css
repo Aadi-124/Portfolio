@@ -2,11 +2,13 @@
 
 body{
     transition: all .5s;
+    margin:0px;
 }
+
 
 html {
     scroll-behavior: smooth;
-  }
+    }
   
 
 .navHeading{
@@ -15,7 +17,6 @@ html {
   font-weight:bolder;
   font-style: italic;
   font-size: 20px;
-
 }
 
 .btnResume{
@@ -53,11 +54,12 @@ html {
     align-items: center;
 }
 
+
 .profileMainDiv{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 90vh;
+    height: 100vh;   
     justify-content: space-evenly;
 }
 
@@ -188,6 +190,7 @@ html {
 
 }
 
+
 .aboutContainer{
     background-color: #0c0c0c;
     height: 50vw;
@@ -199,6 +202,22 @@ html {
     justify-content: space-around;
 
 }
+/* 
+div{
+    border:2px solid red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+/* p{
+    border: 2px solid red;
+}
+*{
+    border:2px solid red;
+} */
 
 .aboutHeading{
     font-size: 70px;
@@ -608,10 +627,6 @@ h3{
     align-items: center;
     justify-content: space-between;
     font-family: 'Exo 2';
-}
-
-div{
-    /* border:2px solid red; */
 }
 
 .footerHeading{

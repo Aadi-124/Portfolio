@@ -220,7 +220,7 @@ export default function NavigationBar() {
     
     </ThemeProvider>
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" style={{"backgroundColor":"black"}}>
+      <AppBar position="absolute" style={{"backgroundColor":"black"}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -234,7 +234,6 @@ export default function NavigationBar() {
           </IconButton>
           <Typography
             variant="h6"
-            
             component="div"
           >
             <p className='navHeading'> AADITYA THAKARE </p>

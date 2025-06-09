@@ -16,7 +16,6 @@
     "@mui/material": "^5.15.21",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
     "portfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

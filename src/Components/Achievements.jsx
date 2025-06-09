@@ -5,16 +5,16 @@ import achievement1 from '../assets/Achievements_Photos/achievement1.jpg';
 import achievement2 from '../assets/Achievements_Photos/achievement2.png';
 import achievement3 from '../assets/Achievements_Photos/achievement3.png';
 import achievement4 from '../assets/Achievements_Photos/achievement4.png';
-import Aos from 'aos';
+// import Aos from 'aos';
 import { useEffect } from 'react';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 
 export default function Achievements(){
 
     
-    useEffect(()=>{
-        Aos.init({duration:2000});
-    },[]);
+    // useEffect(()=>{
+    //     Aos.init({duration:2000});
+    // },[]);
 
     return (
         <>

@@ -25,7 +25,8 @@ export default function Profile() {
                     <div className='profileDescription' >
 
                         <p>Hey! I am Aaditya Thakare A Full Stack JAVA Developer!</p>
-                        <div className='btnResume'  data-aos="fade-up">
+                        <div className='btnResume'>
+                        {/* <div className='btnResume'  data-aos="fade-up"> */}
                         <a href="https://drive.google.com/file/d/1_mDldqPUiLEBEIE-685Wm7ngOzfCCG4Y/view?usp=drive_link" target='_blank'><button class="glow-on-hover" type="button">RESUME</button></a>
                         </div>
                     </div>

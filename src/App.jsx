@@ -7,14 +7,13 @@ import Projects from './Components/Projects';
 import SlideShow from './Components/SlideShow';
 import Achievements from './Components/Achievements';
 import Footer from './Components/Footer';
-import Aos from 'aos';
+// import Aos from 'aos';
 import { useEffect } from 'react';
-import 'aos/dist/aos.css';
 function App() {
 
-  useEffect(()=>{
-    Aos.init({duration:2000});
-  },[]);
+  // useEffect(()=>{
+  //   Aos.init({duration:2000});
+  // },[]);
   
   return (
     <>
@@ -34,7 +33,8 @@ function App() {
         <div id="AchievementsSection">
         <Achievements/>
         </div>
-        <div data-aos="fade-left">
+        {/* <div data-aos="fade-left"> */}
+        <div>
         <Footer/>
         </div>
     </> 
